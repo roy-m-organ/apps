@@ -1,0 +1,15 @@
+---
+application:
+  name: "the-siths-"
+  project: "the-siths"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "Ice"
+  version: "12"
+routers:
+- name: "main-the-siths-"
+  routes:
+  - application_name: "the-siths-"
+    paths:
+    - "/*"
