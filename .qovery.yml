@@ -1,6 +1,6 @@
 ---
 application:
-  name: "the-siths-"
+  name: "apps"
   project: "the-siths"
   organization: "QoveryCommunity"
 databases:
@@ -8,8 +8,8 @@ databases:
   name: "Ice"
   version: "12"
 routers:
-- name: "main-the-siths-"
+- name: "main-apps"
   routes:
-  - application_name: "the-siths-"
+  - application_name: "apps"
     paths:
     - "/*"
